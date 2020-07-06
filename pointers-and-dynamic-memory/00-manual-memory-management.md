@@ -8,7 +8,7 @@ In simple cases, the compiler can determine how much memory is required to run a
 
 A lot of language deal with this runtime memory allocation and freeing by using a garbage collector. A garbage collector is basically some code that comes bundled with every program written in that language, keeps track of the memory the program is using and manages it automatically. This means it has to keep track of every memory allocation, what is using that memory, and pause every so often to free up memory that is no longer used by anything. As you might imagine, this can significantly slow down programs and is not always desirable.
 
-On the other hand, manual memory management means the programmer has to manually do the job of the garbage collector. Allocating and freeing memory has to be done manually and correctly, and doing it improperly can lead to various issues, from hardly noticable to catastrophic (the best known example being memory leaks, which aren't that bad at all compared to other possible problems).
+On the other hand, manual memory management means the programmer has to manually do the job of the garbage collector. Allocating and freeing memory has to be done manually and correctly, and doing it improperly can lead to various issues, from hardly noticable to catastrophic (the best known example being memory leaks, which occur when some memory is allocated but not freed, and aren't bad at all compared to other possible problems).
 
 ## C++ and RAII
 
