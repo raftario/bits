@@ -12,7 +12,7 @@ This guide also assumes at least _some_ knoweledge of programming and of C++. Th
 
 ## Sections
 
--   [Pointers and dynamic memory](pointers-and-dynamic-memory/00-introduction.md) covers manual memory management and everything that it implies.
+-   [Pointers and dynamic memory](pointers-and-dynamic-memory/00-manual-memory-management.md) covers manual memory management and everything that it implies.
 
 ## Contributing
 

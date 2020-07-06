@@ -1,4 +1,4 @@
-# Pointers and dynamic memory
+# Manual memory management
 
 ## Why is it necessary
 
@@ -13,3 +13,14 @@ On the other hand, manual memory management means the programmer has to manually
 ## C++ and RAII
 
 Thankfully, most modern low level languages use the RAII pattern, or _Resource Acquisition Is Initialisation_, which was introduced by C++. The pattern is based around constructors and destructors. Instead of writing memory management code all the time, each type has a constructor and a destructor, which respectively take care of allocating and freeing the memory used by the type. The constructor is implicitely called when an instance of the type is created, and the destructor is implicitely called when an instance goes out of scope. All in all, RAII is an awesome pattern and this section will make heavy use of it.
+
+## Up next
+
+-   [Pointers](01-pointers.md)
+
+## Going further
+
+-   [Garbage collection](<https://en.wikipedia.org/wiki/Garbage_collection_(computer_science)>)
+-   [Allocators](https://en.wikipedia.org/wiki/Memory_management#Dynamic_memory_allocation)
+-   [Memory safety](https://en.wikipedia.org/wiki/Memory_safety)
+-   [RAII](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)
